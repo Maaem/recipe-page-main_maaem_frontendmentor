@@ -145,15 +145,37 @@ tr:nth-child(-n + 3) {
 
 /* Responsive */
 
-@media screen and (min-width: 1440px) {
-    .container {
-      margin: 1em 2em;
+/* Styles pour les écrans de taille moyenne */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
     }
-  }
-  
+}
 
-  @media screen and (min-width: 375px) {
-    .container {
-      margin: 1em 2em;
+/* Styles pour les petits écrans */
+@media only screen and (max-width: 375px) {
+
+    .all_texts {
+        width: 80%;
+        margin: 0 auto;
     }
-  }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+
+    tr {
+        display: flex;
+        justify-content: space-between;
+        width: 56%;
+
+    }
+
+    td {
+        width: 10%;
+        margin: 0 auto;
+        padding-left: 5em;
+    }
+}
