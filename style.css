@@ -1,0 +1,159 @@
+/* Family: [Young Serif] */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+/* Family: [Outfit] */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+
+body {
+    background-color:  hsl(30, 54%, 90%);
+}
+
+.all_texts {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+    display: flex-column;
+    color: hsl(24, 5%, 18%);  
+    width: 650px;
+    margin: auto;
+    padding: 20px 40px 20px 40px;
+}
+
+hr {
+    border:solid 1px hsl(30, 18%, 87%);
+    width: 96%;
+}
+
+h1, h2  {
+    font-family: 'Young Serif', serif;
+}
+
+
+h2 {
+    color: hsl(14, 45%, 36%);  
+}
+
+h3 {
+    color: hsl(332, 51%, 32%); 
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+
+img {
+    display: flex;
+    width: 660px;
+    height: 320px;
+    border-radius: 25px;
+    margin: auto;
+    padding: auto;
+}
+
+.ingredients, .instructions, .nutritions {
+    font-family: 'Outfit', sans-serif;
+}
+
+ li::marker {
+    color: hsl(14, 45%, 36%);  
+}
+
+
+/* div omelette */
+
+.omelette {
+    margin: auto;
+    padding: auto;
+}
+
+/* div purple_block */
+
+.purple_block {
+    background-color: hsl(330, 100%, 98%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 10px 80px 10px 40px;
+}
+
+.purple_block li::marker {
+    color:  hsl(332, 51%, 32%);
+}
+
+.purple_block ul {
+    padding-left: 20px;
+}
+
+.purple_block li {
+    padding-left: 23px; 
+    padding-bottom: 10px;
+}
+
+/* div ingredients */
+
+
+.ingredients ul {
+    padding-left: 20px;
+}
+
+.ingredients li {
+    padding-left: 23px; 
+    padding-bottom: 10px;
+}
+
+/* div instructions */
+
+.instructions ul {
+    padding-left: 20px;
+}
+
+.instructions li {
+    padding-left: 23px; 
+    padding-bottom: 10px;
+}
+
+.instructions li {
+    list-style: decimal;
+}
+
+/* div nutritions */
+
+tr {
+    padding-left: 25px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 6em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+}
+
+td {
+    color: hsl(14, 45%, 36%);  
+    padding-left: 16em;
+    padding-right: 30px;
+}
+
+tr:nth-child(-n + 3) {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+
+
+/* Responsive */
+
+@media screen and (min-width: 1440px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  
+
+  @media screen and (min-width: 375px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
